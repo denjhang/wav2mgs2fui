@@ -11,7 +11,7 @@ This program can convert mml text in mgs format into multiple fui files. In furn
 
 # Usage
 1. First use something like Audacity to trim the audio. I don't recommend that the length of a single audio file exceed 5 seconds. Note that it must be a signed 44100Hz 16-bit wav file.   
-2. Open wave_MML_pro_6000-en.exe and convert the wav to the intermediate file dat. It is recommended to select FM, 5-channel mode, and 1/60 accuracy. This usually takes a few minutes.  
+2. Open wave_MML_pro_6000-en.exe and convert the wav to an intermediate file dat. I recommend selecting FM, 5-channel mode, and 1/60 precision. This usually takes a few minutes.    
 3. Open make_MML-en.exe and convert dat to txt. This will be completed quickly.  
 4. Drag txt into run-cc-org.bat, and cc.exe will automatically complete the conversion from txt to fui.  
 5. Open Furnace Tracker, create a new YM2413 music project, and then import all fui. Select 01-ch-9, -a, -b, -c, -d timbres one by one in the FM1-5 channels in the pattern and enter "C-3", then press Enter, and you can hear the voice.  
