@@ -1,0 +1,1 @@
+cc t1.txt fui-r\ -r
