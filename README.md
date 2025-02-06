@@ -10,7 +10,7 @@ https://mdpc.dousetsu.com/utility/midi/wave_gamma.htm
 This program can convert mml text in mgs format into multiple fui files. In furnace, you need to use the YM2413 chip and import all fui, then use the note "C-3" to play the voice. Note that this usually requires placing different fui files on multiple channels at the same time to play the voice correctly. If the voice speed is too fast or too slow, please adjust the Base Tempo.  
 
 # Usage
-1. First use something like Audacity to trim the audio. It is not recommended that the length of a single audio file exceed 5 seconds. Note that it must be a signed 44100Hz 16-bit wav file.  
+1. First use something like Audacity to trim the audio. I don't recommend that the length of a single audio file exceed 5 seconds. Note that it must be a signed 44100Hz 16-bit wav file.   
 2. Open wave_MML_pro_6000-en.exe and convert the wav to the intermediate file dat. It is recommended to select FM, 5-channel mode, and 1/60 accuracy. This usually takes a few minutes.  
 3. Open make_MML-en.exe and convert dat to txt. This will be completed quickly.  
 4. Drag txt into run-cc-org.bat, and cc.exe will automatically complete the conversion from txt to fui.  
