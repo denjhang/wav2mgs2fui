@@ -1,0 +1,16 @@
+;[name=scc lpf=1]
+#opll_mode 1
+#tempo 176
+#title { "SCC Voice Sample"}
+
+@v15 = { ; sine wave
+;       TL FB
+        63, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+   0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+  15, 0, 0,15, 0, 2, 0, 0, 1, 0, 0 }
+
+;SCC sine wave
+@s00 = { 0d 25 3c 51 63 71 7a 7f 7f 7a 71 63 51 3c 25 0d
+         f3 db c4 af 9d 8f 86 81 81 86 8f 9d af c4 db f3 }
+         
