@@ -1,5 +1,6 @@
 # wav2mgs2fui
- The translated Wave MML program and the MML to FUI conversion program in mgs format allow you to easily make the YM2413 sound human voice on the Furnace.
+ The translated Wave MML program and the MML to FUI conversion program in mgs format allow you to easily make the YM2413 sound human voice on the Furnace.  
+ This program will perform Fourier transformation on the waveform at 1/60 second intervals (optional precision), obtain the frequency and volume, and use multiple OPLL channels to play sine waves simultaneously to play the human voice. The best results will be obtained when you choose 1/60 second and 5 OPLL channels.  
 # Wave MML
 https://mdpc.dousetsu.com/utility/msx/wave_mml.htm  
 https://mdpc.dousetsu.com/other/tech/fm1ch.htm  
